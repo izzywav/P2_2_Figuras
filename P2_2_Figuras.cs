@@ -24,6 +24,26 @@ public class P2_2_Figuras
     Console.WriteLine(triangulo.ToString());
     Console.WriteLine($"Área: {triangulo.GetArea()}");
 
+    List<Figura> lista_figuras = new List<Figura>();
+
+    // agregp las instancias en la lista
+    lista_figuras.Add(rectangulo);
+    lista_figuras.Add(circulo);
+    lista_figuras.Add(triangulo);
+
+    foreach (var Figura in lista_figuras)
+    {
+      Figura.Color = Color.FromArgb(200, 40, 145, 245);
+    }
+
+    double sumaAreas = 0.0;
+    foreach (var Figura in lista_figuras)
+    {
+      sumaAreas += Figura.GetArea();
+    }
+
+    // Mostrar la suma de las áreas por pantalla
+    Console.WriteLine($"Suma de áreas de todas las figuras: {sumaAreas}");
   }
 
 }
