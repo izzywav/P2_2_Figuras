@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Práctica 2.2 
 
 En esta práctica tendremos que implementar clases que hereden de la clase abstract *Figura*, crearemos instancias de ellas y las guardaremos en un objeto tipo *List* para luego recorrerlo
@@ -84,3 +85,9 @@ rgba(245, 40, 145, 200)
 Crearemos un bucle que recorra la lista y sume las áreas de todas las figuras y nos la muestre por pantalla.
 
 
+=======
+# P2_2_Figuras
+Ejercicio DI S2DAM
+Isaac Martín
+Práctica en la que desplegaré una lista de figuras con ciertas características de las mismas y utilizaré dos bucles para hacer dos tareas específicas.
+>>>>>>> 8a0a2c0b1f791f6bc9e1da1b33b39f68ccfe419e
